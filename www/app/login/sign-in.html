@@ -1,0 +1,29 @@
+<md-content>
+    <md-card>
+        <form name="loginForm" data-ng-submit="vm.submit()">
+            <md-list>
+                <md-list-item>
+                    <md-input-container flex>
+                        <label>User name</label>
+                        <input type="text" name="username" data-ng-model="vm.user.userName" required>
+                    </md-input-container>
+                </md-list-item>
+                <md-list-item>
+                    <md-input-container flex>
+                        <label>Password</label>
+                        <input type="password" name="password" data-ng-model="vm.user.password" required>
+                    </md-input-container>
+                </md-list-item>
+                <md-list-item>
+                    <md-input-container flex>
+                        <md-button class="md-raised md-primary">Login</md-button>
+                        <md-button class="md-raised">Create an account</md-button>
+                    </md-input-container>
+                </md-list-item>
+            </md-list>
+        </form>
+        <md-card-footer>
+            <a href="#">Forgot password</a>
+        </md-card-footer>
+    </md-card>
+</md-content>

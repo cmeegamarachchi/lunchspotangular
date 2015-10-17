@@ -1,0 +1,1 @@
+var lunchSpotApp = angular.module('lunchSpotApp', ['ui.router', 'ngMaterial']);
