@@ -1,7 +1,7 @@
 {
   "version": 3,
   "file": "login.css",
-  "sources": ["login.scss"],
+  "sources": ["login.scss","..\/..\/content\/css\/_variables.scss"],
   "names": [],
-  "mappings": "AAAA,QACI,WAAa,QAAjB,QAAQ,MAEA,OAAS,KACT,MAAO,MACP,WAAY"
+  "mappings": "AAEA,QACI,WAAa,QAAjB,QAAQ,MAEA,OAAS,KACT,MAAO,MACP,WAAY"
 }

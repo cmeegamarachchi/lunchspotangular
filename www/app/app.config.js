@@ -6,7 +6,7 @@
         $compileProvider,
         $mdThemingProvider) {
 
-        function setupLoginState($stateProvider) {
+        function setupLoginState(stateProviderService) {
 
             var loginState = {
                 url: '/login',
@@ -31,10 +31,10 @@
                 templateUrl: 'app/login/sign-on-confirmed.html'
             };
 
-            $stateProvider.state('login', loginState);
-            $stateProvider.state('login.signIn', signInState);
-            $stateProvider.state('login.signOn', signOnState);
-            $stateProvider.state('login.signOnConfirmed', signOnConfirmed);
+            stateProviderService.state('login', loginState);
+            stateProviderService.state('login.signIn', signInState);
+            stateProviderService.state('login.signOn', signOnState);
+            stateProviderService.state('login.signOnConfirmed', signOnConfirmed);
         }
 
         setupLoginState($stateProvider);

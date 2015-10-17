@@ -1,7 +1,7 @@
 {
   "version": 3,
   "file": "site.css",
-  "sources": ["site.scss"],
+  "sources": ["site.scss","_variables.scss"],
   "names": [],
-  "mappings": "AAAA,KAGI,2BAA4B"
+  "mappings": "AAEA,KACI,2BAA4B"
 }
